@@ -1,0 +1,431 @@
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.h-50 {
+  height: 50%;
+}
+// flex
+.flex {
+  display: flex;
+}
+.flex-shrank-0 {
+    flex-shrink: 0;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-no-wrap{
+   flex-wrap: no-wrap;
+ }
+.flex-column{
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+    align-items: end
+}
+// display
+.d-flex{
+  display: flex;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+// position
+.p-relative{
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+.p-fixed {
+  position: fixed;
+}
+.left-0{
+    left: 0;
+}
+.right-0{
+    right: 0;
+}
+.top-0{
+    top: 0;
+}
+.bottom-0{
+    bottom: 0;
+}
+// cursor
+.pointer {
+  cursor: pointer;
+}
+
+.events-none {
+    pointer-events: none
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+//
+.font-12 {
+  font-size: 12px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-45 {
+    font-size: 45px;
+}
+.font-48 {
+    font-size: 48px;
+}
+
+.line-height-22{
+    line-height: 22px;
+}
+.line-height-20{
+    line-height: 20px;
+}
+.line-height-17{
+    line-height: 17px;
+}
+.font-500 {
+    font-weight: 500;
+}
+.font-600 {
+    font-weight: 600;
+}
+.font-400 {
+    font-weight: 400;
+}
+.font-300 {
+    font-weight: 300;
+}
+.font-100 {
+    font-weight: 100;
+}
+.font-medium {
+    font-family: PingFang-SC-Medium;
+}
+.font-regular {
+    font-family: PingFang-SC-Regular;
+}
+
+.text-white {
+    color: $text-white;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-333 {
+    color: $text-333;
+}
+.text-ccc {
+    color: #ccc;
+}
+.text-73 {
+    color: $text-color-73;
+}
+.text-888 {
+    color: $text-888;
+}
+.text-999 {
+    color: #999;
+}
+.text-gray {
+    color: $text-gray;
+}
+.text-gray2 {
+    color: $text-gray2;
+}
+.text-gray3 {
+    color: $text-gray3;
+}
+.text-gray4 {
+    color: $text-gray4;
+}
+.text-6f{
+    color: $text-gray5;
+}
+.text-5e {
+    color: #5E5E5E;
+}
+.text-5a {
+    color: #5A5A5A;
+}
+.text-14 {
+    color: $text-black;
+}
+
+.text-green {
+    color: $text-green;
+}
+.text-btn {
+    color: #A05A77;
+}
+.text-orange {
+    color:#FBA187;
+}
+
+.text-match {
+    color: $text-match;
+}
+
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.test-text-width {
+  white-space: nowrap;
+  word-break: break-all;
+}
+.text-2-ellipsis {
+    word-break: break-all;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.text-3-ellipsis {
+  word-break: break-all;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.text-gradient {
+  background: linear-gradient(180deg, #FFF5E8 0%, #E1A579 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.break-all {
+  word-break: break-all;
+}
+.underline {
+    text-decoration: underline
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-y-auto {
+    overflow-y: auto;
+}
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+.bg-center {
+    background-position: center;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+.bg-size-auto {
+    background-size: auto;
+}
+.bg-size-cover {
+    background-size: cover;
+}
+.bg-size-100 {
+    background-size: 100% 100%
+}
+
+.bg-gray2 {
+    background-color: $body-bg;
+}
+.bg-white {
+    background-color: $text-white;
+}
+.bg-black {
+    background-color: #000;
+}
+
+.icon-10.svg-icon {
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+.icon-14 {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+}
+.icon-23 {
+    font-size: 23px;
+    width: 23px;
+    height: 23px;
+}
+.icon-30 {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+
+// opacity
+
+.opacity-0 {
+    opacity: 0;
+}
+.opacity-7 {
+    opacity: 0.7;
+}
+.transition-3{
+   transition: .3s ease;
+}
+.scale-9 {
+    transform: scale(0.9);
+    transform-origin: 0 50% ;
+}
+.scale-7 {
+  transform: scale(0.7);
+  transform-origin: 0 50% ;
+}
+
+.is-reverse {
+    transform: rotateY(180deg);
+}
+.m-auto {
+    margin: 0 auto;
+}
+
+
+.border-radius-50 {
+    border-radius: 50%!important;
+}
+
+.border-radius-15 {
+    border-radius: 15px;
+}
+.border-radius-10 {
+    border-radius: 10px;
+}
+.border-radius-3 {
+    border-radius: 3px;
+}
+
+.table-right-border {
+    border-right: 1px solid #D8D8D8;
+}
+.table-bottom-border {
+    border-bottom: 1px solid #D8D8D8;
+}
+// 加载中的最小高度
+.loading-height {
+    min-height: 108px;
+}
+
+
+.score-button {
+    width: 58px;
+    height: 32px;
+    color: #ccc;
+    line-height: 22px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.13);
+    border-radius: 3px;
+    border: none;
+    &.is-active, &:hover {
+        color: #fff;
+        background: linear-gradient(180deg, #FFF5E8 0%, #E1A579 100%);
+    }
+}
+
+
+.min-h-300 {
+    min-height: 300px;
+}
+
+.rotate-reverse {
+    transform: rotate(180deg);
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+
+
+.highlight-text {
+    &:hover {
+        opacity: 1!important;
+        color: #A05A77!important;
+    }
+}
+
+.hover-7 {
+  &:hover {
+    opacity: 0.7;
+  }
+}

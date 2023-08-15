@@ -1,0 +1,184 @@
+{
+  "id": "3997509",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12862795",
+      "name": "观看人数",
+      "font_class": "guankanrenshu",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "585100",
+      "name": "tanmuClose",
+      "font_class": "086tanmuclose",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "585101",
+      "name": "tanmuOpen",
+      "font_class": "087tanmuopen",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "7592565",
+      "name": "24gl-volumeHigh",
+      "font_class": "24gl-volumeHigh",
+      "unicode": "ea0e",
+      "unicode_decimal": 59918
+    },
+    {
+      "icon_id": "7592567",
+      "name": "24gl-volumeLow",
+      "font_class": "24gl-volumeLow",
+      "unicode": "ea0f",
+      "unicode_decimal": 59919
+    },
+    {
+      "icon_id": "7592568",
+      "name": "24gl-volumeMiddle",
+      "font_class": "24gl-volumeMiddle",
+      "unicode": "ea10",
+      "unicode_decimal": 59920
+    },
+    {
+      "icon_id": "24473008",
+      "name": "表情包",
+      "font_class": "biaoqingbao1",
+      "unicode": "fc68",
+      "unicode_decimal": 64616
+    },
+    {
+      "icon_id": "1985075",
+      "name": "表情包",
+      "font_class": "biaoqingbao",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "886701",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "12296961",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "33986993",
+      "name": "举报",
+      "font_class": "jubao",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "15417008",
+      "name": "热度",
+      "font_class": "redu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1727484",
+      "name": "240显示、可见",
+      "font_class": "xianshikejian",
+      "unicode": "e8d4",
+      "unicode_decimal": 59604
+    },
+    {
+      "icon_id": "6548524",
+      "name": "单选_选中",
+      "font_class": "danxuan_xuanzhong",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "34642213",
+      "name": "隐藏",
+      "font_class": "yincang",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "7592563",
+      "name": "24gl-volumeCross",
+      "font_class": "24gl-volumeCross",
+      "unicode": "ea0b",
+      "unicode_decimal": 59915
+    },
+    {
+      "icon_id": "7592566",
+      "name": "24gl-volumeZero",
+      "font_class": "24gl-volumeZero",
+      "unicode": "ea0d",
+      "unicode_decimal": 59917
+    },
+    {
+      "icon_id": "34230483",
+      "name": "迷你",
+      "font_class": "mini",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "23129875",
+      "name": "弹幕开启",
+      "font_class": "danmukaiqi",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "23129876",
+      "name": "弹幕关闭",
+      "font_class": "danmuguanbi",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "1727566",
+      "name": "328退出全屏",
+      "font_class": "tuichuquanping",
+      "unicode": "e8fb",
+      "unicode_decimal": 59643
+    },
+    {
+      "icon_id": "1727563",
+      "name": "327全屏",
+      "font_class": "quanping",
+      "unicode": "e8fa",
+      "unicode_decimal": 59642
+    },
+    {
+      "icon_id": "4767104",
+      "name": "pause",
+      "font_class": "pause",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    },
+    {
+      "icon_id": "4868921",
+      "name": "refresh",
+      "font_class": "refresh",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "16619219",
+      "name": "play",
+      "font_class": "play",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    }
+  ]
+}

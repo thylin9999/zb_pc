@@ -1,0 +1,63 @@
+.transition-3 {
+  transition: .3s ease-in;
+}
+
+@keyframes shining {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-out{
+  animation: shining 1.5s linear infinite forwards;
+}
+
+
+@keyframes dotOuter {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+.dot-outer-animate{
+  animation: dotOuter 1s linear infinite forwards;
+}
+
+@keyframes scaleSmall {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+.dot-inner-animate{
+  animation: scaleSmall 1s linear infinite forwards;
+}
+
+
+@keyframes circleLoading {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.circle-repeat {
+  animation: circleLoading 1s linear infinite;
+}

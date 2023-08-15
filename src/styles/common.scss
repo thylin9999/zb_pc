@@ -1,0 +1,118 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  outline: none;
+}
+img {
+  object-fit: cover;
+}
+img[lazy=loading] {
+  object-fit: contain;
+}
+* {
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+.wrap-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap-1450 {
+  width: 1450px;
+  margin: 0 auto;
+}
+
+.wrap-1400 {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.wrap-1800 {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.max-screen {
+  max-width: 1920px;
+}
+
+/*播放器 直播文字隐藏*/
+.dplayer-live-badge {
+  display: none;
+}
+
+.dplayer-notice{  //播放器提示文字
+  display: none;
+}
+
+.dplayer-controller .dplayer-icons .dplayer-volume .dplayer-volume-bar-wrap .dplayer-volume-bar {
+  width: 50px !important;
+}
+
+.dplayer-controller .dplayer-icons .dplayer-full .dplayer-full-in-icon {
+  .dplayer-icon-content {
+    display: none;
+  }
+}
+
+.dplayer-controller .dplayer-icons .dplayer-icon.dplayer-comment-icon{
+  //display: none;
+  opacity: 0;
+}
+
+.emoji-mart-category-label{
+  display: none!important;
+}
+.emoji-mart-bar-preview{
+  display: none!important;
+}
+
+.emoji-mart-search{
+  display: none;
+}
+
+.emoji-mart-static{
+  width: 100% !important;
+  position: absolute;
+  bottom: 0;
+}
+.dplayer-notice-list{
+  display: none;
+}
+
+/*播放器*/
+.xgplayer-controls{
+  display: none!important;
+}
+
+.xgplayer-replay{
+  display: none!important;
+}
+
+// 加载中的loading
+.xgplayer-skin-default.xgplayer-pause .xgplayer-loading{
+  display: none!important;
+}
+
+.xgplayer-start{
+  display: none;
+}
+
+

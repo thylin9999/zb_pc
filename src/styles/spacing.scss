@@ -1,0 +1,112 @@
+
+$auto: auto;
+$null: 0;
+ $sizes: (
+   $auto: auto,
+   $null: 0,
+   5: 5,
+   10:10,
+   15: 15,
+   20: 20,
+   25:25,
+   30: 30
+ );
+
+$names: (
+        m: margin,
+        p: padding,
+);
+$arrows: (
+        l: left,
+        t: top,
+        b: bottom,
+        r: right
+);
+
+// m-auto, m-0, p/m-t-5, p/m-l-5, p/m-b-5, p/m-r-5
+@mixin singleSpace {
+  @each $sizeName, $size in $sizes { // $sizeName: $auto/$null/5/10/15/20/25/30, $size: auto/0/5/10/15/20/25/30
+    @if $sizeName == auto {
+      .m-#{$auto} {
+        margin: $size;
+      }
+    } @else if $sizeName == $null {
+      .m-#{$size} {
+        margin: #{$size};
+      }
+      .p-#{$size} {
+        padding: #{$size};
+      }
+    } @else {
+      @each $spaceName, $value in $names { // $spaceName: m, $value: margin
+        @each $arrow, $arrowValue in $arrows { // $arrow: t/b/l/r, $arrowValue: top/bottom/left/right
+          .#{$spaceName}-#{$arrow}-#{$sizeName} {
+            #{$value}-#{$arrowValue}: #{$size}px !important;
+          }
+          .#{$spaceName}-#{$sizeName} {
+            #{$value}: #{$size}px !important;
+          }
+        }
+      }
+    }
+  }
+}
+// m/p-t/b-l/r-0/5/10/15/20/25/30
+@mixin twoSpace {
+  @each $sizeName, $size in $sizes { // $sizeName: $auto/$null/5/10/15/20/25/30, $size: auto/0/5/10/15/20/25/30
+    @if $sizeName != auto {
+      @if $sizeName != 0 {
+        @each $spaceName, $value in $names {// $spaceName: m/p, $value: margin/padding
+          @each $verticalArrow, $verticlArrowValue in (t: top, b: bottom) {
+            @each $horizenArrow, $horizenArrowValue in (l: left, r: right) {
+              .#{$spaceName}-#{$verticalArrow}-#{$horizenArrow}-#{$sizeName} {
+                #{$value}-#{$verticlArrowValue}: #{$size}px !important;
+                #{$value}-#{$horizenArrowValue}: #{$size}px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// m-l-n-5
+@mixin negativeSingleSpace {
+  @each $sizeName, $size in $sizes { // $sizeName: $auto/$null/5/10/15/20/25/30, $size: auto/0/5/10/15/20/25/30
+    @if $sizeName != auto {
+      @if $sizeName != 0 {
+        @each $arrow, $arrowValue in $arrows { // $arrow: t/b/l/r, $arrowValue: top/bottom/left/right
+          .m-#{$arrow}-n-#{$sizeName} {
+            margin-#{$arrowValue}: -#{$size}px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// .m-t-l-n-5
+@mixin negativeTwoSpace {
+  @each $sizeName, $size in $sizes { // $sizeName: $auto/$null/5/10/15/20/25/30, $size: auto/0/5/10/15/20/25/30
+    @if $sizeName != auto {
+      @if $sizeName != 0 {
+        @each $arrow, $arrowValue in $arrows { // $arrow: t/b/l/r, $arrowValue: top/bottom/left/right
+          @each $verticalArrow, $verticlArrowValue in (t: top, b: bottom) {
+            @each $horizenArrow, $horizenArrowValue in (l: left, r: right) {
+              .m-#{$verticalArrow}-#{$horizenArrow}-n-#{$sizeName} {
+                margin-#{$verticlArrowValue}: -#{$size}px !important;
+                margin-#{$horizenArrowValue}: -#{$size}px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include singleSpace;
+@include twoSpace;
+@include negativeSingleSpace;
+@include negativeTwoSpace;
+

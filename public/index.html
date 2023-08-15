@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="" class="theme-default">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+<!--      <title><%= htmlWebpackPlugin.options.title %></title>-->
+      <title>播球直播-足球直播-篮球直播-五大联赛直播-世界杯直播</title>
+      <meta content="足球直播,篮球直播,五大联赛直播,世界杯直播,2022世界杯直播,体育直播,免费高清无插件直播" name="key">
+      <meta content="播球直播是国内最好的体育直播网站之一,主要提供足球直播,篮球直播,五大联赛直播,世界杯直播,2022世界杯直播,体育直播,免费高清无插件直播等国内外体育赛事,2022卡塔尔世界杯比赛直播尽在播球直播网" name="description">
+      <script  src="<%= BASE_URL %>config.js"></script>
+      <script src="<%= BASE_URL %>detectiveDevice.js"></script>
+      <script src="<%= BASE_URL %>yidun-captcha.js"></script>
+      <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js"></script>
+  </head>
+  <script>
+      window.Global = {  //全局配置
+          api:'',
+          ws:'ws.qiangjinmkd.cn/'
+      }
+  </script>
+  <script>
+      var _hmt = _hmt || [];
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?504a5e583b418cbc9d38b229ec9d07d7";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
