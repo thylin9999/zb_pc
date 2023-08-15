@@ -4,7 +4,7 @@
         <ul v-if="!showDetail" class="list">
             <template v-for="announce in announces">
                 <li :key="announce.id" class="item pointer p-b-10 p-t-10 flex font-12 flex align-center justify-between" @click="goToDetail(announce)">
-                    <span class="badge d-inline-block p-l-10 p-r-10 text-center font-12 font-400 font-regular font-14">播球公告</span>
+                    <span class="badge d-inline-block p-l-10 p-r-10 text-center font-12 font-400 font-regular font-14">看球公告</span>
                     <div class="flex title p-l-10 text-333">
                         <custom-span :content="announce.title"></custom-span>
                     </div>

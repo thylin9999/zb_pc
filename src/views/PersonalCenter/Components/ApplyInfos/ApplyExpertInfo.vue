@@ -84,7 +84,7 @@
                 <span class="visibility-hidden">asdf</span>
             </div>
             <el-checkbox v-model="agreeUs">
-                <span @click.prevent="viewProtocol">播球有料协议</span>
+                <span @click.prevent="viewProtocol">看球有料协议</span>
             </el-checkbox>
         </div>
         <div class="row-outer flex p-t-30 p-l-30  m-b-20">

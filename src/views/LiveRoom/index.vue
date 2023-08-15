@@ -48,7 +48,7 @@
             <span style="font-size: 12px;padding: 0 5px;color: #999999">分享</span>
             <div v-if="showModule"
                  class="showModule scale clear">
-              <div class="txt_call">精彩解说，尽在播球直播！</div>
+              <div class="txt_call">精彩解说，尽在看球直播！</div>
               <div class="txt_share_box">
                 <span>分享到：</span>
                 <div class="img_share_box">
@@ -293,8 +293,8 @@ export default {
             }
         },
         shareClick (type) {
-            const title = '播球直播'
-            const summary = '播球直播将为您呈现全球经典赛事解说'
+            const title = '看球直播'
+            const summary = '看球直播将为您呈现全球经典赛事解说'
             const image = require('@/assets/logo.png')
             const url = window.location.href// 获取当前网页地址
             let sharesinastring = null // 跳转的url地址;

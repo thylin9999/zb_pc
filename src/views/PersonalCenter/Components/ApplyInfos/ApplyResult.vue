@@ -99,7 +99,7 @@ export default {
             return this.status === 1
         },
         successLabel () {
-            return this.isAnchor ? '恭喜您成为播球一名主播；请开启你的直播之旅吧' : '恭喜您成为播球专家，快去展示你的风采吧！'
+            return this.isAnchor ? '恭喜您成为看球一名主播；请开启你的直播之旅吧' : '恭喜您成为看球专家，快去展示你的风采吧！'
         }
     },
     methods: {

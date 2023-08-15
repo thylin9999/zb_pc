@@ -12,7 +12,7 @@
         >任务</span>
     </div>
     <div class="content p-b-20">
-        <p class="text-white font-14 title">播球宝箱</p>
+        <p class="text-white font-14 title">看球宝箱</p>
         <div class="boxes w-100  m-t-10">
             <timing-box v-if="token" class="p-l-10 p-r-10"/>
             <div v-else class="w-100 not-login p-t-20">

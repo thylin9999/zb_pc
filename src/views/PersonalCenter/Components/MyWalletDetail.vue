@@ -83,7 +83,7 @@
         <div class="procotol">
           <el-checkbox v-model="agreeUs">
             <span class="font-14 font-400 text-999">我已阅读且同意</span>
-            <span class="font-14 font-400 link" @click.prevent="viewProtocol">《播球购买服务协议》</span>
+            <span class="font-14 font-400 link" @click.prevent="viewProtocol">《看球购买服务协议》</span>
           </el-checkbox>
         </div>
         <ProtocolPopup :value.sync="showProtocol" :id="23"/>

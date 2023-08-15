@@ -78,7 +78,7 @@
                     <div class="procotol m-t-30 m-b-30 font-12 font-400">
                         <el-checkbox v-model="agreeUs">
                             <div>我已阅读且同意
-                                <span @click.prevent="goToHelpCenter(3)">《播球用户协议》</span>
+                                <span @click.prevent="goToHelpCenter(3)">《看球用户协议》</span>
                                 和
                                 <span @click.prevent="goToHelpCenter(4)">《隐私政策》</span>
                             </div>

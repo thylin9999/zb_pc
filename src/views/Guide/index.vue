@@ -1,7 +1,7 @@
 <template>
     <div class="w-100 h-100 page p-t-30" :style="style">
         <div class="w-100 flex  p-t-30 flex-column align-center justify-center">
-            <span class="font-30 text-333 font-500 p-t-5 p-b-5 d-inline-block">播球有料·数字化解球</span>
+            <span class="font-30 text-333 font-500 p-t-5 p-b-5 d-inline-block">看球有料·数字化解球</span>
             <span class="font-16 text-333 font-400 p-t-5">大咖多方位解析精彩赛事</span>
         </div>
         <div class="p-t-10">

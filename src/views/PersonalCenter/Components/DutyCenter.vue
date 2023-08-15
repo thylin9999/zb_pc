@@ -7,7 +7,7 @@
           <div class="row p-l-25 p-r-25">
               <div class="flex p-t-20 align-center justify-between">
                   <div>
-                      <span class="font-14 text-333 font-600">播球宝箱</span>
+                      <span class="font-14 text-333 font-600">看球宝箱</span>
                       <span class="font-12 m-l-5 text-999 font-400">观看直播即可领取</span>
                   </div>
                   <span class="pointer"

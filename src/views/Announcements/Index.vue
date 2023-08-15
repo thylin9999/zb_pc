@@ -27,11 +27,11 @@
                     <div data-v-c491a9b6="" class="right-info bg-white p-t-25">
                         <div data-v-a888eca2="" data-v-c491a9b6="" class="h-100 overflow-y-auto p-10">
                             <div data-v-a888eca2="" class="word"><p style="text-align:center;"><b><font
-                                size="3">播球App</font></b></p>
+                                size="3">看球App</font></b></p>
                                 <p style="text-align:left;"><br></p>
-                                <p><font size="1">播球是一个全民参与的体育赛事平台，该网站平台涵盖了足球、篮球、羽毛球、乒乓球、台球、网球、赛车等热门体育项目以及世界杯、欧洲杯、英超、德甲、法甲、NBA等热门体育赛事。</font>
+                                <p><font size="1">看球是一个全民参与的体育赛事平台，该网站平台涵盖了足球、篮球、羽毛球、乒乓球、台球、网球、赛车等热门体育项目以及世界杯、欧洲杯、英超、德甲、法甲、NBA等热门体育赛事。</font>
                                 </p>
-                                <p><font size="1">播球同时也是专业的赛事解说平台和人气社区，拥有海量弹幕，可以与球迷及主播零距离实时互动，在线为广大体育爱好者提供最新的体坛资讯，准确即时还原赛场战况和快速精准的战报集锦。</font>
+                                <p><font size="1">看球同时也是专业的赛事解说平台和人气社区，拥有海量弹幕，可以与球迷及主播零距离实时互动，在线为广大体育爱好者提供最新的体坛资讯，准确即时还原赛场战况和快速精准的战报集锦。</font>
                                 </p>
                                 <p><br></p>
                                 <p style="text-align:center;">功能介绍</p>
@@ -80,7 +80,7 @@ export default {
                 {
                     id: 1,
                     name: 'announcements',
-                    text: '播球公告',
+                    text: '看球公告',
                     icon: 'help-center/announcement',
                     com: 'Announcement'
                 },

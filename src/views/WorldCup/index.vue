@@ -50,7 +50,7 @@
                 </div>
                 <div class="styles_describe">
                     <div class="styles_icon"> </div>
-                    <p>年满18周岁播球注册用户（以本活动开始之日起为准），且具有完全民事行为能力</p>
+                    <p>年满18周岁看球注册用户（以本活动开始之日起为准），且具有完全民事行为能力</p>
                 </div>
                 <div class="styles_describe">
                     <div class="styles_icon"> </div>

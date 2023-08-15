@@ -36,7 +36,7 @@
                             </li>
                             <li>
                                 <span>
-<!--                                    微信公众号：播球体育live-->
+<!--                                    微信公众号：看球体育live-->
                                     联系电话：<copy-span content="0771-5628872"/>
                                 </span>
                             </li>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="section2 flex align-center justify-center font-14 font-500 font-regular m-t-30">
                     <div class="pointer">
-                        <span @click="aboutUs">播球App</span>
+                        <span @click="aboutUs">看球App</span>
 <!--                        <span class="m-l-10 m-r-10">|</span>-->
                     </div>
 <!--                    <div class="pointer" @click="userProtocol">-->
@@ -65,7 +65,7 @@
                 </div>
                 <div class="section3 font-14 font-500 font-regular">
                     <span class="d-inline-block w-100 text-center">
-                        © 南宁市播球体育科技有限公司 ｜
+                        © 南宁市看球体育科技有限公司 ｜
                       <span class="d-inline-block">
                         <span class="gh flex align-center">
                           <IconPng  icon="footer/gh" :width="13" :height="13"/>

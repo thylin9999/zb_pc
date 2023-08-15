@@ -293,7 +293,7 @@
       <i class="el-icon-close" @click="linkPopupEvent('close')"></i>
       <p class="title">互动弹幕</p>
       <div class="link-txt">
-        <div class="t-1">全天赛事精彩不断 看赛事直播上播球</div>
+        <div class="t-1">全天赛事精彩不断 看赛事直播上看球</div>
         <div class="t-link">{{ currentLinkInfo.jump_url }}</div>
       </div>
       <div class="link-btn" @click="linkPopupEvent('link')">访问链接</div>
