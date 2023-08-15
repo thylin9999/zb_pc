@@ -91,7 +91,7 @@ export default {
             showDialog: false,
             banners: [], // 热门赛程下方banner
             hostBanners: [],
-            bgUrl: null,
+            // bgUrl: null,
             roomInfoHome: null
         }
     },
@@ -107,14 +107,18 @@ export default {
         // },
         hotHostBanner () {
             return this.hostBanners.length && this.hostBanners[0].pic_url
+        },
+        bgUrl() {
+            return require('../assets/images/common/home-bg.jpg')
         }
+
     },
     created () {
         this.fetchData()
         // this.getImage(1) // 热门赛事 banner
-        this.getImage(4, {
-            requestTimeoutType: 'adv'
-        }) // 首页背景图
+        // this.getImage(4, {
+        //     requestTimeoutType: 'adv'
+        // }) // 首页背景图
     },
     mounted () {
         // if (!this.token) {

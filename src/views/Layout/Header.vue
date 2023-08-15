@@ -179,7 +179,7 @@ export default {
             currentId: 1,
             opacity: 0,
             opacityHeader: true, // 是否可以hover效果，下拉之后，没有这个效果
-            showDark: true // 首页悬浮时，需要修改样式
+            showDark: false // 首页悬浮时，需要修改样式
         }
     },
     computed: {
@@ -256,11 +256,11 @@ export default {
         // if (this.isLightHeader) { // 只有首页才需要处理
         //     this.initScroll()
         // }
-        // this.$nextTick(() => {
-        //     if (this.isLightHeader) { // 只有首页才需要处理
-        //         this.initScroll()
-        //     }
-        // })
+        this.$nextTick(() => {
+            if (this.isLightHeader) { // 只有首页才需要处理
+                this.initScroll()
+            }
+        })
     },
     methods: {
         enterWorldCup () {
@@ -277,7 +277,7 @@ export default {
             const scrollTop = document.documentElement.scrollTop
             this.opacity = scrollTop / 70
             this.opacityHeader = scrollTop <= 70
-            // this.showDark = scrollTop > 0
+            this.showDark = scrollTop > 0
         },
         changeTab (tab) {
             this.currentId = tab.id

@@ -1,10 +1,10 @@
 <template>
     <div class="host-section wrap-1200 ">
-      <div class="host-banner w-100 bg-no-repeat bg-center bg-size-cover"
-           :style="{
-                    backgroundImage: `url(${hotHostBanner})`
-                }"
-      ></div>
+<!--      <div class="host-banner w-100 bg-no-repeat bg-center bg-size-cover"-->
+<!--           :style="{-->
+<!--                    backgroundImage: `url(${hotHostBanner})`-->
+<!--                }"-->
+<!--      ></div>-->
       <div class="w-100 content-box m-t-15 flex justify-between ">
         <div class="left-host h-100">
           <div class="hosts bg-white">
