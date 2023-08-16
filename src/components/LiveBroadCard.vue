@@ -41,7 +41,7 @@
                  class="avatar d-inline-block overflow-hidden border-radius-50  "
                  v-lazy-container="{ selector: 'img' }"
              >
-               <img class="w-100 h-100" :data-src="info.img" :data-error="errorUserLogo" alt="">
+               <img class="w-100 h-100" :data-src="globeLiveCover" :data-error="errorUserLogo" alt="">
 
              </span>
 
@@ -90,7 +90,8 @@ export default {
             return !!this.info.live_cover
         },
         cover () {
-            return this.hasCover ? this.info.live_cover : this.cardEmptyLogo
+            // return this.hasCover ? this.info.live_cover : this.cardEmptyLogo
+            return this.globeLiveCover
         },
         topImg () {
             const num = this.index > 4 ? 4 : this.index

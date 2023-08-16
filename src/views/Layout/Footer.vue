@@ -119,6 +119,7 @@ export default {
             return this._appDownloadUlr
         }
     },
+
     methods: {
         goToDescription (item) {
                 this.$router.push({
@@ -127,7 +128,6 @@ export default {
                         id: item.id
                     }
                 })
-            }
         },
         goBeiAn () {
             // window.open('https://beian.miit.gov.cn/')
@@ -167,6 +167,7 @@ export default {
                 }
             })
         }
+    }
 }
 </script>
 

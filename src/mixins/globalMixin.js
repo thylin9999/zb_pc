@@ -25,6 +25,9 @@ export const globalMixin = {
         cardEmptyLogo () {
             return require('../assets/images/common/card-empty.jpg')
         },
+        globeLiveCover() {
+            return require('../assets/images/common/live-cover.png')
+        },
         // emptyTeamLogo () {
         //     return require('../assets/images/common/team-icon.png')
         // },

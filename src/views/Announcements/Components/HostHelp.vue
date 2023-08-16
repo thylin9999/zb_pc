@@ -32,16 +32,16 @@ export default {
             content: null,
             // 5=开播教程  | 6=直播规范 | 7=开播工具  | 8=直播协议
             menus: [
-                {
-                    id: 1,
-                    type: 8,
-                    title: '直播协议'
-                },
-                {
-                    id: 2,
-                    type: 6,
-                    title: '直播规范'
-                },
+                // {
+                //     id: 1,
+                //     type: 8,
+                //     title: '直播协议'
+                // },
+                // {
+                //     id: 2,
+                //     type: 6,
+                //     title: '直播规范'
+                // },
                 {
                     id: 3,
                     type: 5,
@@ -73,7 +73,7 @@ export default {
         '$route': {
             handler () {
                 const { buttonId } = this.$route.params
-                this.currentId = buttonId || 1
+                this.currentId = buttonId || 3
             },
             immediate: true,
             deep: true

@@ -80,7 +80,8 @@
                         <div class="procotol font-12 font-400">
                             <el-checkbox v-model="agreeUs">
                                 <div>我已阅读并同意
-                                    <span @click.prevent="goToHelpCenter(3)">《用户协议》</span>
+                                    <!-- <span @click.prevent="goToHelpCenter(3)">《用户协议》</span> -->
+                                    <span >《用户协议》</span>
                                 </div>
                             </el-checkbox>
                         </div>

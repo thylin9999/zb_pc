@@ -91,22 +91,22 @@ export default {
                     icon: 'help-center/help',
                     com: 'HostHelp'
                 },
-                {
-                    id: 3,
-                    type: 1,
-                    name: 'userProtocol',
-                    text: '用户协议',
-                    icon: 'help-center/protocol',
-                    com: 'Protocols'
-                },
-                {
-                    id: 4,
-                    type: 2,
-                    name: 'policy',
-                    text: '隐私政策',
-                    icon: 'help-center/policy',
-                    com: 'Policy'
-                },
+                // {
+                //     id: 3,
+                //     type: 1,
+                //     name: 'userProtocol',
+                //     text: '用户协议',
+                //     icon: 'help-center/protocol',
+                //     com: 'Protocols'
+                // },
+                // {
+                //     id: 4,
+                //     type: 2,
+                //     name: 'policy',
+                //     text: '隐私政策',
+                //     icon: 'help-center/policy',
+                //     com: 'Policy'
+                // },
                 {
                     id: 5,
                     type: 2,

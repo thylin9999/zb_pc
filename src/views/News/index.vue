@@ -190,7 +190,7 @@ export default {
         width: 70px;
         &.is-active, &:hover {
             font-weight: 500;
-            background: linear-gradient(90deg, #FFF5E8 0%, #E1A579 100%);
+            background: linear-gradient(90deg, #c765bf 0%, #E1A579 100%);
             box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.37);background-color: #fff;
         }
     }

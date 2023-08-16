@@ -13,7 +13,7 @@
                     <div class="videoList">
                         <div class="item" :class="{select:current == i}" v-for="(item,i) in list" :key="i">
                             <img v-if="current == i" class="icon_arr_r" :src="require('@/assets/images/home/icon-arr-r.png')" alt="">
-                            <img @click="selectLive(item,i)" class="item_img" :src="item.live_cover || require('@/assets/images/common/host-avatar.png')" alt="">
+                            <img @click="selectLive(item,i)" class="item_img" :src="globeLiveCover || require('@/assets/images/common/host-avatar.png')" alt="">
                         </div>
                         <div class="item item_blank" v-for="tem in (6-list.length)" :key="1000-tem"></div>
                     </div>

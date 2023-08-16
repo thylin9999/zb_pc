@@ -90,11 +90,11 @@
             <gift-login-tips v-if="showGiftLogin" />
           </div>
         </keep-alive>
-        <div class="gifts w-100">
+        <!-- <div class="gifts w-100">
             <gifts
                 :anchor-info="giftAnchorInfo"
             />
-        </div>
+        </div> -->
         <downsection
           id="liveroom-downsection"
           :anchor-id="anchorInfo && anchorInfo.member_id"
@@ -107,11 +107,11 @@
               <div class="bg-white p-l-15 p-t-10 p-b-10 p-r-10">
                   <live-announce />
               </div>
-              <div class="m-t-10 bg-white">
+              <!-- <div class="m-t-10 bg-white">
                   <gift-ranking
                       :anchor-id="anchorInfo && anchorInfo.member_id"
                   />
-              </div>
+              </div> -->
           </div>
           <div class="chat-section flex-1"
           >
