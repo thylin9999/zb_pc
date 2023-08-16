@@ -8,7 +8,6 @@
                 v-if="!item.hide"
                 :key="item.key"
                 class="flex m-t-15 item flex-column pointer align-center justify-center font-14 p-relative"
-                @click="command(item)"
             >
                 <div class="icon">
                     <icon-png :icon="item.icon" :width="25" :height="25"/>
@@ -141,11 +140,11 @@ export default {
       width: 25px;
       height: 25px;
     }
-    &:hover {
-        .download-code {
-            display: inline-block;
-        }
-    }
+    //&:hover {
+    //    .download-code {
+    //        display: inline-block;
+    //    }
+    //}
     .download-code{
         width: 200px;
         height: 280px;

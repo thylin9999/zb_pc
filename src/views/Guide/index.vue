@@ -13,7 +13,7 @@
         <div class="download-section  flex align-center justify-center">
             <div class="code text-center">
                 <div class="code-box m-auto">
-                    <Qrcode :url="downloadUrl"/>
+                    <Qrcode url="www.baidu.com"/>
                 </div>
                 <div class="font-16 flex flex-column aign-center justify-center font-600 m-t-15">
                     <span class="m-b-5">扫码下载APP</span>
@@ -46,11 +46,13 @@ export default {
                 },
                 {
                     id: 2,
-                    src: require('./../../assets/images/guide/bg2.png')
+                    // src: require('./../../assets/images/guide/bg2.png')
+                    src: require('./../../assets/images/guide/bg1.png')
                 },
                 {
                     id: 3,
-                    src: require('./../../assets/images/guide/bg3.png')
+                    // src: require('./../../assets/images/guide/bg3.png')
+                    src: require('./../../assets/images/guide/bg1.png')
                 }
             ],
             carouselOptions: {

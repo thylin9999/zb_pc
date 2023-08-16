@@ -11,9 +11,6 @@
                 v-for="event in events"
                 :key="event.id"
                 @click="clickBanner(event)"
-                :style="{
-                    backgroundImage: `url(${event.pic_url})`
-                }"
             >
             </li>
         </ul>
