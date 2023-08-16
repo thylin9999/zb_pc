@@ -110,7 +110,7 @@ export default {
   height: 50px;
   background: #fff;
   border-radius: 10px;
-  border: 1px solid #FBA187;
+  border: 1px solid #409eff;
   &.is-hot {
     &:before {
       content: '';
@@ -132,10 +132,10 @@ export default {
         height: 50px;
         background: #fff;
         border-radius: 10px;
-        border: 1px solid #FBA187;
+        border: 1px solid #409eff;
     }
   .price {
-    color: #FBA187;
+    color: #409eff;
   }
   .btn {
     width: 50px;

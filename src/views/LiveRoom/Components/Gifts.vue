@@ -204,7 +204,7 @@ export default {
     height: 50px;
     background: #FFFFFF;
     border-radius: 10px;
-    border: 1px solid #FBA187;
+    border: 1px solid #409eff;
 }
 .right-gifts {
     .up-icon {
@@ -214,8 +214,8 @@ export default {
         background: #FFFFFF;
         border-radius: 10px;
         text-align: center;
-        color: #FBA187;
-        border: 1px solid #FBA187;
+        color: #409eff;
+        border: 1px solid #409eff;
     }
     .hot-gifts {
         .gift {
@@ -223,7 +223,7 @@ export default {
             height: 50px;
             background: #D8D8D8;
             border-radius: 10px;
-            border: 1px solid #FBA187;
+            border: 1px solid #409eff;
             position: relative;
         }
     }
@@ -236,7 +236,7 @@ export default {
             border-radius: 10px;
         }
         .coin {
-            color: #FBA187;
+            color: #409eff;
         }
     }
 }

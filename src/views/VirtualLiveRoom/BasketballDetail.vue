@@ -321,7 +321,7 @@ export default {
       line-height: 33px;
       position: relative;
       &.is-active {
-        color: #FBA187;
+        color: #409eff;
         &:after {
           position: absolute;
           width: 0;
@@ -332,7 +332,7 @@ export default {
           border-right: 6px solid transparent;
           border-top: 6px solid transparent;
           border-left: 6px solid transparent;
-          border-bottom: 6px solid #FBA187;
+          border-bottom: 6px solid #409eff;
         }
       }
     }

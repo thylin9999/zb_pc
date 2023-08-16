@@ -13,7 +13,7 @@
             <div class="label">
                 <span>主要参考</span>
             </div>
-            <el-radio-group v-model="refer" fill="#FBA187">
+            <el-radio-group v-model="refer" fill="#409eff">
                 <el-radio-button   :label="1">欧盘</el-radio-button>
                 <el-radio-button   :label="2">亚盘</el-radio-button>
                 <el-radio-button   :label="3">历史交战</el-radio-button>

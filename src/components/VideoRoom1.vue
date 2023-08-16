@@ -512,7 +512,7 @@ export default {
           border-top-left-radius: 0;
           border-bottom-left-radius: 0;
           font-size: 14px;
-          background-color: #FBA187;
+          background-color: #409eff;
           color: #fff;
         }
       }

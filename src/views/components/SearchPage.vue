@@ -155,9 +155,9 @@ export default {
             }
             &:hover {
                 background: #FFF8F1;
-                color: #FBA187;
+                color: #409eff;
                 .number {
-                    background: #FBA187;
+                    background: #409eff;
                     span {
                         color: #fff;
                     }
@@ -175,7 +175,7 @@ export default {
             color: #999;
         }
         .el-input.is-active .el-input__inner, .el-input__inner:focus {
-            border-color: #FBA187;
+            border-color: #409eff;
             &::placeholder {
                 color: #999999;
             }

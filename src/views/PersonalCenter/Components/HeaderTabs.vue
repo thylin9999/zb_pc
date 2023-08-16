@@ -46,7 +46,7 @@ export default {
   &.is-active {
     font-size: 18px;
     font-weight: 500;
-    color: #FBA187;
+    color: #409eff;
     line-height: 22px;
     &::after {
       position: absolute;
@@ -58,7 +58,7 @@ export default {
       border-top: 6px solid transparent;
       border-left: 6px solid transparent;
       border-right: 6px solid transparent;
-      border-bottom: 6px solid #FBA187;
+      border-bottom: 6px solid #409eff;
     }
   }
   &.is-disabled {

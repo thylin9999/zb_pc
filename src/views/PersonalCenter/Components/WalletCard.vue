@@ -127,7 +127,7 @@ export default {
       }
     }
     &.is-active, &:hover {
-        border: 1px solid #FBA187;
+        border: 1px solid #409eff;
         background-image: url('../../../assets/images/wallet/selected.png');
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -136,7 +136,7 @@ export default {
     .coins{
         font-size: 35px;
         font-weight: bold;
-        color: #FBA187;
+        color: #409eff;
         line-height: 40px;
     }
     .input-number{

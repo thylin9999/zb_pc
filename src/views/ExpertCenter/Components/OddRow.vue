@@ -188,7 +188,7 @@ export default {
     .item {
       flex: 1;
       &:hover, &.is-active {
-        background-color: #FBA187;
+        background-color: #409eff;
         color: #fff;
       }
     }

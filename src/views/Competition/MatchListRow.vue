@@ -237,7 +237,8 @@ export default {
         background-color: #fff;
         flex-shrink: 0;
         color: #141414;
-      background-image: url('../../assets/images/home/card/card-bg.png');
+      //background-image: url('../../assets/images/home/card/card-bg.png');
+        background-color: #585d83;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;

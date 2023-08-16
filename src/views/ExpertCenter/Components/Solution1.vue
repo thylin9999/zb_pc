@@ -2,7 +2,7 @@
     <div class="w-100 h-100">
         <div class="types">
           <span>类别：</span>
-          <el-radio-group text-color="#FBA187"  v-model="leagueType" @change="changeType">
+          <el-radio-group text-color="#409eff"  v-model="leagueType" @change="changeType">
             <el-radio-button :label="1">足球</el-radio-button>
             <el-radio-button :label="2">篮球</el-radio-button>
           </el-radio-group>
@@ -208,7 +208,7 @@ export default {
     .item {
       cursor: pointer;
       &:hover, &.is-active {
-        background-color: #FBA187;
+        background-color: #409eff;
         color: #fff;
       }
     }
@@ -244,7 +244,7 @@ export default {
       padding: 5px 20px;
   }
   .el-radio-button__orig-radio:checked+.el-radio-button__inner {
-    border: 1px solid #FBA187;
+    border: 1px solid #409eff;
     box-shadow: none;
   }
 

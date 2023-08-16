@@ -48,7 +48,7 @@
                         :key="host.id"
                         @click="goToLiveRoom(host)"
                     >
-                      <div
+                      <div style="border-radius: 50%;overflow: hidden"
                           class="avatar d-inline-block p-relative bg-center bg-no-repeat bg-size-cover"
                           v-lazy-container="{ selector: 'img' }"
                       >
@@ -81,22 +81,22 @@
                     {{ label.title  }}
                 </span>
             </div>
-            <more-button  @click.native="goToNotice"/>
+<!--            <more-button  @click.native="goToNotice"/>-->
           </div>
-          <div  class="list-box m-t-20 flex flex-column overflow-y-auto"
-            v-loading="isLoading"
-          >
-            <template v-if="ads.length">
-              <template
-                  v-for="ad in ads"
-              >
-                <div class="news-row w-100 flex align-center m-b-5 p-r-10 p-l-20" :key="ad.id" @click="clickAd(ad)">
-                  <CustomSpan class="pointer font-14 d-inline-block w-100 " :content="ad.title" />
-                </div>
-              </template>
-            </template>
-            <no-data v-else />
-          </div>
+<!--          <div  class="list-box m-t-20 flex flex-column overflow-y-auto"-->
+<!--            v-loading="isLoading"-->
+<!--          >-->
+<!--            <template v-if="ads.length">-->
+<!--              <template-->
+<!--                  v-for="ad in ads"-->
+<!--              >-->
+<!--                <div class="news-row w-100 flex align-center m-b-5 p-r-10 p-l-20" :key="ad.id" @click="clickAd(ad)">-->
+<!--                  <CustomSpan class="pointer font-14 d-inline-block w-100 " :content="ad.title" />-->
+<!--                </div>-->
+<!--              </template>-->
+<!--            </template>-->
+<!--            <no-data v-else />-->
+<!--          </div>-->
         </div>
       </div>
     </div>
@@ -487,9 +487,9 @@ export default {
             }
             color: #646464;
           &:hover {
-            color: #FBA187;
+            color: #409eff;
             &:before {
-              background-color: #FBA187;
+              background-color: #409eff;
             }
           }
         }

@@ -857,7 +857,7 @@ export default {
     border-bottom: 1px solid #F3F3F3;
     li {
       &.is-active {
-        color: #FBA187;
+        color: #409eff;
       }
     }
   }
@@ -877,7 +877,7 @@ export default {
 
       .level {
         width: 40px;
-        background: #FBA187;
+        background: #409eff;
         border-radius: 3px;
         line-height: 16px;
         height: 16px;

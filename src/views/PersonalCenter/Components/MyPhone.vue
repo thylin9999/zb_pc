@@ -224,7 +224,7 @@ export default {
       margin-left: 120px;
       width: 150px;
       border-radius: 5px;
-      background-color: #FBA187;
+      background-color: #409eff;
       color: #fff;
       line-height: 40px;
   }

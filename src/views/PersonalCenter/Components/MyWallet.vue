@@ -76,7 +76,7 @@ export default {
     border: 1px solid #000000;
   }
   .count {
-    color: #FBA187;
+    color: #409eff;
   }
 }
 .content {

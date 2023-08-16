@@ -152,7 +152,7 @@ export default {
   width: 100%;
 
   .buttons {
-    border-bottom: 1px solid #FBA187;
+    border-bottom: 1px solid #409eff;
     .button {
         width: 116px;
         height: 33px;
@@ -160,7 +160,7 @@ export default {
         line-height: 33px;
         position: relative;
         &.is-active {
-            color: #FBA187;
+            color: #409eff;
           &:after {
             position: absolute;
             width: 0;
@@ -171,7 +171,7 @@ export default {
             border-right: 6px solid transparent;
             border-top: 6px solid transparent;
             border-left: 6px solid transparent;
-            border-bottom: 6px solid #FBA187;
+            border-bottom: 6px solid #409eff;
           }
         }
     }

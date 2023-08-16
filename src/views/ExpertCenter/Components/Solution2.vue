@@ -312,13 +312,13 @@ export default {
     width: 100px;
   }
   .label-btn {
-    border: 1px solid #FBA187;
+    border: 1px solid #409eff;
     border-radius: 5px;
     line-height: 25px;
 
     &:hover {
       color: #fff;
-      background-color: #FBA187;
+      background-color: #409eff;
     }
   }
   .solution {
@@ -337,7 +337,7 @@ export default {
       .rate-list {
         span {
           &:hover, &.is-active {
-            background-color: #FBA187;
+            background-color: #409eff;
             color: #fff;
           }
         }
@@ -366,7 +366,7 @@ export default {
     font-size: 14px;
     font-weight: 400;
     &:hover, &.is-active {
-      background-color: #FBA187;
+      background-color: #409eff;
       color: #fff;
     }
   }

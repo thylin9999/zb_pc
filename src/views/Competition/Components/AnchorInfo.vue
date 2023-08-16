@@ -134,7 +134,7 @@ export default {
         //width: 80px;
         min-width: 65px;
         height: 25px;
-        background: #FBA187;
+        background: #409eff;
         border-radius: 5px;
         line-height: 25px;
         color: #fff;
