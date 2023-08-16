@@ -110,11 +110,11 @@
               }
 
               .msg_link {
-                border: 1px solid #FBA187;
+                border: 1px solid #409eff;
                 display: inline-block;
                 color: #FF4141;
                 cursor: pointer;
-                box-shadow: #FBA187 1px 1px 1px 1px;
+                box-shadow: #409eff 1px 1px 1px 1px;
                 padding: 0 5px;
                 border-radius: 5px;
               }
@@ -172,7 +172,7 @@
         //padding-top: 3px;
         position: absolute;
         top: 5px;
-        color: #FBA187;
+        color: #409eff;
         font-size: 26px;
       }
 
@@ -185,7 +185,7 @@
       }
 
       //.el-icon-caret-left:hover, .el-icon-caret-right:hover {
-      //  color: #FBA187;
+      //  color: #409eff;
       //}
 
       & > ul {
@@ -200,7 +200,7 @@
           font-size: 12px;
           height: 22px;
           border-radius: 2px;
-          border: 1px solid #FBA187;
+          border: 1px solid #409eff;
           margin: 0 5px 0 5px;
           color: #333;
           line-height: 21px;
@@ -263,7 +263,7 @@
     }
     .input-row {
       height: 35px;
-      border: 1px solid #FBA187;
+      border: 1px solid #409eff;
       border-radius: 3px;
     }
     .control {
@@ -354,7 +354,7 @@
     text-align: center;
     .icon-smile{
       font-size: 24px;
-      color: #fba187;
+      color: #409eff;
       line-height: 34px;
       cursor: pointer;
     }
@@ -377,7 +377,7 @@
     height: 34px;
     font-size: 12px;
     color: #fff;
-    background-color: #FBA187;
+    background-color: #409eff;
   }
 
   .send:active {

@@ -43,7 +43,7 @@ export default {
 .middle {
   font-size: 35px;
   font-weight: bold;
-  color: #FBA187;
+  color: #409eff;
   line-height: 40px;
 }
 </style>

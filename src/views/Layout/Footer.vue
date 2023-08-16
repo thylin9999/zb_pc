@@ -186,7 +186,7 @@ export default {
             width: 50%;
         }
         //.protocols {
-        //  color: #FBA187;
+        //  color: #409eff;
         //}
         .button {
             height: 30px;
@@ -211,7 +211,7 @@ export default {
     color: #fff;
 }
 .pointer:hover{
-    color: #FBA187;
+    color: #409eff;
 }
 .gh {
   height: 20px;

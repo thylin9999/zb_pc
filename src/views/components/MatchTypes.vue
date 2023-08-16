@@ -38,7 +38,7 @@ export default {
 
 <style lang="scss" scoped>
 .list {
-    background: #FEF2E4;
+    //background: #FEF2E4;
     border-radius: 15px;
     height: 30px;
 }
@@ -48,10 +48,10 @@ export default {
     line-height: 26px;
     border-radius: 15px;
     margin-top: 1px;
-    color: #FBA187;
+    color: #409eff;
     &.is-active, &:hover {
         color:#fff;
-        background-color: #FBA187;
+        background-color: #409eff;
     }
     &:last-child {
         margin-right: 0!important;

@@ -4,7 +4,7 @@
             <div class="label">
                 <span>直播赛事</span>
             </div>
-            <el-radio-group v-model="leagueType" fill="#FBA187">
+            <el-radio-group v-model="leagueType" fill="#409eff">
                 <el-radio-button   :label="1">足球</el-radio-button>
                 <el-radio-button   :label="2">篮球</el-radio-button>
                 <el-radio-button   :label="3">电竞</el-radio-button>
@@ -34,7 +34,7 @@
             <div class="label visibility-hidden">
                 <span class="">asdf</span>
             </div>
-            <el-radio-group v-model="contactType" fill="#FBA187">
+            <el-radio-group v-model="contactType" fill="#409eff">
                 <el-radio  :label="1">QQ</el-radio>
                 <el-radio  :label="2">微信</el-radio>
                 <el-radio  :label="3">电话号码</el-radio>

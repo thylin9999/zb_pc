@@ -146,7 +146,7 @@ export default {
         }
         &.is-active, &:hover {
             span {
-                color: #FBA187!important;
+                color: #409eff!important;
             }
         }
         .week {

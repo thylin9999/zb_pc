@@ -151,7 +151,7 @@ export default {
     margin: 0 auto;
 }
 .buttons {
-    border-bottom: 1px solid #FBA187;
+    border-bottom: 1px solid #409eff;
     .button {
         width: 116px;
         height: 33px;
@@ -159,7 +159,7 @@ export default {
         line-height: 33px;
         position: relative;
         &.is-active {
-            color: #FBA187;
+            color: #409eff;
           &:after {
             position: absolute;
             width: 0;
@@ -170,7 +170,7 @@ export default {
             border-right: 6px solid transparent;
             border-top: 6px solid transparent;
             border-left: 6px solid transparent;
-            border-bottom: 6px solid #FBA187;
+            border-bottom: 6px solid #409eff;
           }
         }
     }
@@ -182,7 +182,7 @@ export default {
     .search-btn {
         width: 65px;
         height: 35px;
-        background: #FBA187;
+        background: #409eff;
         border-radius: 18px;
         right: 0;
         &:hover {
@@ -200,7 +200,7 @@ export default {
         height: 35px;
     }
     .el-input.is-active .el-input__inner, .el-input__inner:focus {
-        border: 1px solid #FBA187;
+        border: 1px solid #409eff;
     }
     .lives {
         .card {

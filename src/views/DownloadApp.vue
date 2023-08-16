@@ -7,7 +7,7 @@
                 <div class="app-info w-100 flex align-center justify-center p-relative">
                     <div class="code">
                         <div class="code-box">
-                            <Qrcode :url="downloadUrl"/>
+                            <Qrcode url="www.baidu.com"/>
                         </div>
 
                     </div>
@@ -45,15 +45,18 @@ export default {
             slides: [
                 {
                     id: 1,
-                    src: require('../assets/images/download/01.png')
+                    // src: require('../assets/images/download/01.png')
+                    src: require('../assets/images/download/04.png')
                 },
                 {
                     id: 2,
-                    src: require('../assets/images/download/02.png')
+                    // src: require('../assets/images/download/02.png')
+                    src: require('../assets/images/download/04.png')
                 },
                 {
                     id: 3,
-                    src: require('../assets/images/download/03.png')
+                    // src: require('../assets/images/download/03.png')
+                    src: require('../assets/images/download/04.png')
                 },
                 {
                     id: 4,
@@ -93,7 +96,7 @@ export default {
 .download-page {
     min-height: calc(100vh - 245px);
     margin: 0 auto;
-    background-image: url('../assets/images/download/bg.png');
+    //background-image: url('../assets/images/download/bg.png');
     background-size: cover;
     background-position: center;
     .upper-div {
@@ -106,7 +109,7 @@ export default {
             height: 13.44vw;
             background-position: left bottom;
             background-size: contain;
-            background-image: url('../assets/images/download/text-logo.png');
+            //background-image: url('../assets/images/download/text-logo.png');
         }
         .site {
             line-height: 48px;

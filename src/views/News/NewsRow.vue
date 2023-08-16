@@ -48,7 +48,7 @@ export default {
     height: 66px;
       &:hover {
           .title, .content {
-              color: #FBA187;
+              color: #409eff;
           }
       }
   }

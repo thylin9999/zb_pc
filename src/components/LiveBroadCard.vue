@@ -41,7 +41,11 @@
                  class="avatar d-inline-block overflow-hidden border-radius-50  "
                  v-lazy-container="{ selector: 'img' }"
              >
+<<<<<<< HEAD
                <img class="w-100 h-100" :data-src="globeLiveCover" :data-error="errorUserLogo" alt="">
+=======
+               <img class="w-100 h-100" :data-src="info" :data-error="errorUserLogo" alt="">
+>>>>>>> 0b654bcc36ff7aac78f14f8748ae3d7bee93a4ba
 
              </span>
 
@@ -50,8 +54,8 @@
              </span>
            </div>
           <div class="views flex align-center flex-end">
-              <span class="iconfont icon default font-14">&#xe788;</span>
-            <span class="m-l-5 font-12">{{heatNum }}</span>
+              <span class="iconfont icon default font-14" style="color: red">&#xe788;</span>
+            <span class="m-l-5 font-12">{{10000 }}</span>
           </div>
         </div>
     </div>

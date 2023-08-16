@@ -190,7 +190,7 @@ export default {
   }
   .nickname {
       width: 75px;
-      color: #FBA187;
+      color: #409eff;
   }
   .label {
     width: 46px;
@@ -245,7 +245,7 @@ export default {
         .level-text {
             color: #999999;
             &.up {
-                color: #FBA187;
+                color: #409eff;
             }
             &.down {
                 color: #43B365;

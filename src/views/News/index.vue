@@ -235,9 +235,9 @@ export default {
     }
     &:hover {
       .right {
-        color:#FBA187;
+        color:#409eff;
         .title {
-          color:#FBA187;
+          color:#409eff;
         }
       }
     }

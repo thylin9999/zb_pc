@@ -309,7 +309,7 @@ export default {
     line-height: 40px;
     border-bottom: 2px solid transparent;
     &.is-active {
-        border-bottom: 2px solid #FBA187;
+        border-bottom: 2px solid #409eff;
     }
 }
 </style>

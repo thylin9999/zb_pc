@@ -75,7 +75,7 @@ export default {
       height: 35px;
       font-size: 30px;
       font-weight: bold;
-      color: #FBA187;
+      color: #409eff;
       line-height: 35px;
     }
     .label {

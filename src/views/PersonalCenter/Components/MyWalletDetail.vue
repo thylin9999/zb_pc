@@ -388,7 +388,7 @@ export default {
         padding-right: 8px;
     }
     .pay-value{
-        color: #FBA187;
+        color: #409eff;
     }
     .code{
         width: 100px;

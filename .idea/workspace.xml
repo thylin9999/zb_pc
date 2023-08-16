@@ -24,9 +24,14 @@
   <component name="ChangeListManager">
     <list default="true" id="492ecc40-478b-4b08-8045-b41ea91fffe7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LiveBroadCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LiveBroadCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleRow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Competition/MatchListRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Competition/MatchListRow.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Host/HomeHostSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Host/HomeHostSection.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Layout/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Layout/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/MatchTypes.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/MatchTypes.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -4,7 +4,7 @@
             <el-radio-group
                 v-model="tab" @change="changeTab"
                 :disabled="isLoading"
-                fill="#FBA187">
+                fill="#409eff">
                 <el-radio-button   :label="1">充值记录</el-radio-button>
                 <el-radio-button   :label="2">消费记录</el-radio-button>
             </el-radio-group>

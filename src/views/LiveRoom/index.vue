@@ -651,7 +651,7 @@ export default {
           padding: 4px 10px;
           border-radius: 20px;
           color: #fff;
-          background: #FBA187;
+          background: #409eff;
           cursor: pointer;
 
           .hot-focus {
