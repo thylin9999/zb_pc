@@ -41,11 +41,7 @@
                  class="avatar d-inline-block overflow-hidden border-radius-50  "
                  v-lazy-container="{ selector: 'img' }"
              >
-<<<<<<< HEAD
                <img class="w-100 h-100" :data-src="globeLiveCover" :data-error="errorUserLogo" alt="">
-=======
-               <img class="w-100 h-100" :data-src="info" :data-error="errorUserLogo" alt="">
->>>>>>> 0b654bcc36ff7aac78f14f8748ae3d7bee93a4ba
 
              </span>
 
