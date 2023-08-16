@@ -6,14 +6,14 @@
                     <div class="host-help flex align-center font-14 font-500 font-regular">
                         <span class="button d-inline-block font-14 p-l-15 p-r-15">直播帮助</span>
                         <ul class="flex m-l-15 align-center">
-                            <li class="pointer" :class="{'protocols': active === 1}" @click="goToLiveProtocol(1)">
-                                <span>直播协议</span>
-                                <span class="m-l-5 m-r-5">/</span>
-                            </li>
-                            <li class="pointer" :class="{'protocols': active === 2}" @click="goToLiveProtocol(2)">
-                                <span>直播规范</span>
-                                <span class="m-l-5 m-r-5">/</span>
-                            </li>
+<!--                            <li class="pointer" :class="{'protocols': active === 1}" @click="goToLiveProtocol(1)">-->
+<!--                                <span>直播协议</span>-->
+<!--                                <span class="m-l-5 m-r-5">/</span>-->
+<!--                            </li>-->
+<!--                            <li class="pointer" :class="{'protocols': active === 2}" @click="goToLiveProtocol(2)">-->
+<!--                                <span>直播规范</span>-->
+<!--                                <span class="m-l-5 m-r-5">/</span>-->
+<!--                            </li>-->
                             <li class="pointer" :class="{'protocols': active === 3}" @click="goToLiveProtocol(3)">
                                 <span>
                                     直播教程
@@ -31,13 +31,13 @@
                                 <!--                                <span class="m-l-5 m-r-5">/</span>-->
                             </li>
                             <li>
-                                <span>官方邮箱：<copy-span content="boqiuzhibo@163.com"/> </span>
+                                <span>官方邮箱：<copy-span content="123456789@163.com"/> </span>
                                 <span class="m-l-5 m-r-5">/</span>
                             </li>
                             <li>
                                 <span>
 <!--                                    微信公众号：看球体育live-->
-                                    联系电话：<copy-span content="0771-5628872"/>
+                                    联系电话：<copy-span content="88888888"/>
                                 </span>
                             </li>
                         </ul>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="section3 font-14 font-500 font-regular">
                     <span class="d-inline-block w-100 text-center">
-                        © 南宁市看球体育科技有限公司 ｜
+<!--                        © 南宁市看球体育科技有限公司 ｜-->
                       <span class="d-inline-block">
                         <span class="gh flex align-center">
                           <IconPng  icon="footer/gh" :width="13" :height="13"/>
@@ -121,7 +121,6 @@ export default {
     },
     methods: {
         goToDescription (item) {
-            if (item.type) {
                 this.$router.push({
                     name: item.type,
                     params: {
@@ -168,7 +167,6 @@ export default {
                 }
             })
         }
-    }
 }
 </script>
 
